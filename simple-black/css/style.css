@@ -1,0 +1,47 @@
+body {
+	margin: 1em auto;            /* Center it */
+	background-color: black;
+	color: white;                
+	font-size: 120%;              /* zwiekszanie wilkosci czcionki */
+	max-width:80%;             /* maksymalna dlugosc strony */
+	font-family: 'Times New Roman', serif;
+}
+
+a {
+	text-decoration: none;
+} 
+
+	a:link    {color: green;}   /* unvisited link */
+	a:visited {color: green;}   /* visited link */
+	a:hover   {color: cyan;}         /* mouse over link */
+	a:active  {color: red;}          /* selected link */
+
+footer {
+	text-align: center;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+	margin-top: 2em;
+}
+
+nav {
+	margin-bottom: 1em;
+}
+
+nav ul{
+	list-style: none;
+	display: inline;
+}
+
+nav li {
+  display: inline;
+  margin-right: 1em;
+}
+
+pre {
+	white-space: pre-wrap; 
+	white-space: -moz-pre-wrap;
+	white-space: -pre-wrap; 
+	white-space: -o-pre-wrap; 
+	word-wrap: break-word;
+}
