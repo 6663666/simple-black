@@ -22,7 +22,7 @@
             <?php } ?>
 			
             <div>
-                <?php echo format_date($p->date) ?>
+                <i><?php echo format_date($p->date) ?></i>
                 <?php if (disqus_count()) { ?> - 
                     <a href="<?php echo $p->url ?>#disqus_thread">Comments</a>
                 <?php } elseif (facebook()) { ?> - 

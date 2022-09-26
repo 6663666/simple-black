@@ -1,6 +1,8 @@
 # simple-black
- Simple black theme for HTMLy
- The main goal is to create a light theme without hundreds css lines.
+
+Simple black theme for HTMLy
+
+The main goal is to create a light theme without hundreds css lines.
 
 # installation
 
